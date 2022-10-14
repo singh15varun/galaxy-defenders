@@ -1,3 +1,5 @@
+#accept
+
 import pygame
 import random
 import math
@@ -125,6 +127,7 @@ while running:
         bullety -=bulletychange
     showscore(textx,texty)
     pygame.display.update()
+    l=[]
 
             
 
